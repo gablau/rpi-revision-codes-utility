@@ -1,0 +1,21 @@
+{
+  "name": "rpi-revision-codes-utility",
+  "version": "0.1.0",
+  "description": "Some utility for Raspberry Pi revision codes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rpi-generator": "node rpi-generator.js",
+    "rpi-decode": "node rpi-decode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gablau/rpi-revision-codes-utility.git"
+  },
+  "author": "Gabriele Lauricella <gab.lau@gmail.com> (https://github.com/gablau)",
+  "license": "MIT",
+  "homepage": "https://github.com/gablau/rpi-revision-codes-utility",
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "node-fetch": "^2.6.0"
+  }
+}
