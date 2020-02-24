@@ -1,6 +1,6 @@
 [
   {
-    "date": "2019-06-24",
+    "date": "2020-02-24",
     "source": "https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md",
     "generator": "https://github.com/gablau/rpi-revision-codes-utility"
   },
@@ -222,6 +222,13 @@
     "Manufacturer": "Sony UK"
   },
   {
+    "Code": "a02042",
+    "Model": "2B (with BCM2837)",
+    "Revision": "1.2",
+    "RAM": "1GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
     "Code": "a21041",
     "Model": "2B",
     "Revision": "1.1",
@@ -295,6 +302,13 @@
     "Code": "c03111",
     "Model": "4B",
     "Revision": "1.1",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c03112",
+    "Model": "4B",
+    "Revision": "1.2",
     "RAM": "4GB",
     "Manufacturer": "Sony UK"
   }
