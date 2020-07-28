@@ -7,6 +7,8 @@ Some utility for Raspberry Pi revision codes
 
 ## How to use
 
+### rpi-decode
+
 From CLI run `npm run rpi-decode <revision-code>` to decode one or more codes 
  
 Example:
@@ -36,7 +38,7 @@ Processor: BCM2711
 
 String: Raspberry Pi 4 Model B Rev 1.1 - 4GB (Sony UK) (Broadcom BCM2711)
 ```
-
+### rpi-generator
 From CLI run `npm run rpi-generator` to generate models json file `pi-models.json` 
  
 Example:
