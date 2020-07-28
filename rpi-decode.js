@@ -7,23 +7,23 @@ const args = process.argv.slice(2);
 function decodeOldRevisionCode(code) {
     var result = [ toHex(code), "n/a", "n/a", "n/a", "n/a" ]
     var oldcodes = {
-      0x0002: [ "0002", "B", "1.0", "256 MB", "Egoman" ],
-      0x0003: [ "0003", "B", "1.0", "256 MB", "Egoman" ],
-      0x0004: [ "0004", "B", "2.0", "256 MB", "Sony UK" ],
-      0x0005: [ "0005", "B", "2.0", "256 MB", "Qisda" ],
-      0x0006: [ "0006", "B", "2.0", "256 MB", "Egoman" ],
-      0x0007: [ "0007", "A", "2.0", "256 MB", "Egoman" ],
-      0x0008: [ "0008", "A", "2.0", "256 MB", "Sony UK" ],
-      0x0009: [ "0009", "A", "2.0", "256 MB", "Qisda" ],
-      0x000d: [ "000d", "B", "2.0", "512 MB", "Egoman" ],
-      0x000e: [ "000e", "B", "2.0", "512 MB", "Sony UK" ],
-      0x000f: [ "000f", "B", "2.0", "512 MB", "Egoman" ],
-      0x0010: [ "0010", "B+", "1.0", "512 MB", "Sony UK" ],
+      0x0002: [ "0002", "B",   "1.0", "256 MB", "Egoman" ],
+      0x0003: [ "0003", "B",   "1.0", "256 MB", "Egoman" ],
+      0x0004: [ "0004", "B",   "2.0", "256 MB", "Sony UK" ],
+      0x0005: [ "0005", "B",   "2.0", "256 MB", "Qisda" ],
+      0x0006: [ "0006", "B",   "2.0", "256 MB", "Egoman" ],
+      0x0007: [ "0007", "A",   "2.0", "256 MB", "Egoman" ],
+      0x0008: [ "0008", "A",   "2.0", "256 MB", "Sony UK" ],
+      0x0009: [ "0009", "A",   "2.0", "256 MB", "Qisda" ],
+      0x000d: [ "000d", "B",   "2.0", "512 MB", "Egoman" ],
+      0x000e: [ "000e", "B",   "2.0", "512 MB", "Sony UK" ],
+      0x000f: [ "000f", "B",   "2.0", "512 MB", "Egoman" ],
+      0x0010: [ "0010", "B+",  "1.0", "512 MB", "Sony UK" ],
       0x0011: [ "0011", "CM1", "1.0", "512 MB", "Sony UK" ],
-      0x0012: [ "0012", "A+", "1.1", "256 MB", "Sony UK" ],
-      0x0013: [ "0013", "B+", "1.2", "512 MB", "Embest" ],
+      0x0012: [ "0012", "A+",  "1.1", "256 MB", "Sony UK" ],
+      0x0013: [ "0013", "B+",  "1.2", "512 MB", "Embest" ],
       0x0014: [ "0014", "CM1", "1.0", "512 MB", "Embest" ],
-      0x0015: [ "0015", "A+", "1.1", "256 MB / 512 MB", "Embest" ],
+      0x0015: [ "0015", "A+",  "1.1", "256 MB / 512 MB", "Embest" ],
     }
 
    if(oldcodes.hasOwnProperty(code)) result = oldcodes[code];
@@ -33,7 +33,14 @@ function decodeOldRevisionCode(code) {
 
 function memoryToString(mem) {
    if (mem >=8) mem = mem-8;
-   mapping = { 0: '256MB', 1: '512MB',  2: '1GB', 3: '2GB',  4: '4GB' };
+   mapping = { 
+       0: '256MB', 
+       1: '512MB',  
+       2: '1GB', 
+       3: '2GB', 
+       4: '4GB' , 
+       5: '8GB' 
+    };
    if(mapping.hasOwnProperty(mem)) return mapping[mem];
    return 'n/a';
 }
@@ -52,27 +59,32 @@ function manufacturerToString(manufacturer) {
  }
 
 function processorToString(processor) {
-    mapping = { 0: 'BCM2835', 1: 'BCM2836', 2: 'BCM2837', 3: 'BCM2711' };
+    mapping = { 
+        0: 'BCM2835', 
+        1: 'BCM2836', 
+        2: 'BCM2837', 
+        3: 'BCM2711' 
+    };
     if(mapping.hasOwnProperty(processor)) return mapping[processor];
     return 'n/a';
 }
 
 function typeToString(type) {
     mapping = {
-        0: 'A',
-        1: 'B',
-        2: 'A+',
-        3: 'B+',
-        4: '2B',
-        5: 'Alpha (early prototype)',
-        6: 'CM1',
-        8: '3B',
-        9: 'Zero',
-        0xa: 'CM3',
-        0xc: 'Zero W',
-        0xd: '3B+',
-        0xe: '3A+',
-        0xf: 'Internal use only',
+        0x00: 'A',
+        0x01: 'B',
+        0x02: 'A+',
+        0x03: 'B+',
+        0x04: '2B',
+        0x05: 'Alpha (early prototype)',
+        0x06: 'CM1',
+        0x08: '3B',
+        0x09: 'Zero',
+        0x0a: 'CM3',
+        0x0c: 'Zero W',
+        0x0d: '3B+',
+        0x0e: '3A+',
+        0x0f: 'Internal use only',
         0x10: 'CM3+',
         0x11: '4B',
     };
@@ -139,13 +151,13 @@ function rpiDecode(code) {
     //output
     console.log('### Code: ' + result[0] + ' #############################################################');
     console.log();
-    console.log('Model: ' + result[1]);
-    console.log('Revision: ' + result[2]);
-    console.log('RAM: ' + result[3]);
+    console.log('Model:        ' + result[1]);
+    console.log('Revision:     ' + result[2]);
+    console.log('RAM:          ' + result[3]);
     console.log('Manufacturer: ' + result[4]);
-    console.log('Processor: ' + result[5]);
+    console.log('Processor:    ' + result[5]);
     console.log();
-    console.log('String: ' +fullModelString);
+    console.log('Full String: ' +fullModelString);
     console.log();
     //console.log('Array:', result)
     //console.log();
