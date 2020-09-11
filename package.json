@@ -16,6 +16,6 @@
   "homepage": "https://github.com/gablau/rpi-revision-codes-utility",
   "dependencies": {
     "dom-parser": "^0.1.6",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
