@@ -27,7 +27,7 @@ function decodeOldRevisionCode(code) {
     }
 
    if(oldcodes.hasOwnProperty(code)) result = oldcodes[code];
-   result = result.concat( ['n/a'] ); //processor
+   result = result.concat( ['BCM2835'] ); //processor
    return result;
 }
 
@@ -87,8 +87,8 @@ function typeToString(type) {
         0x0f: 'Internal use only',
         0x10: 'CM3+',
         0x11: '4B',
+        0x14: 'CM4',
     };
-    res = mapping.hasOwnProperty(type);
     if(mapping.hasOwnProperty(type)) return mapping[type];
     return 'n/a';
 }

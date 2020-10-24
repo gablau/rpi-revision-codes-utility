@@ -1,6 +1,6 @@
 {
   "name": "rpi-revision-codes-utility",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Some utility for Raspberry Pi revision codes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,6 @@
   "homepage": "https://github.com/gablau/rpi-revision-codes-utility",
   "dependencies": {
     "dom-parser": "^0.1.6",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
