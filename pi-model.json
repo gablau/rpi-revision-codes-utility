@@ -1,7 +1,7 @@
 [
   {
-    "date": "2020-10-24",
-    "source": "https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md",
+    "date": "2025-07-12",
+    "source": "https://github.com/raspberrypi/documentation/raw/refs/heads/develop/documentation/asciidoc/computers/raspberry-pi/revision-codes.adoc",
     "generator": "https://github.com/gablau/rpi-revision-codes-utility"
   },
   {
@@ -138,55 +138,6 @@
     "Manufacturer": "Sony UK"
   },
   {
-    "Code": "900092",
-    "Model": "Zero",
-    "Revision": "1.2",
-    "RAM": "512MB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "900093",
-    "Model": "Zero",
-    "Revision": "1.3",
-    "RAM": "512MB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "9000c1",
-    "Model": "Zero W",
-    "Revision": "1.1",
-    "RAM": "512MB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "9020e0",
-    "Model": "3A+",
-    "Revision": "1.0",
-    "RAM": "512MB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "920092",
-    "Model": "Zero",
-    "Revision": "1.2",
-    "RAM": "512MB",
-    "Manufacturer": "Embest"
-  },
-  {
-    "Code": "920093",
-    "Model": "Zero",
-    "Revision": "1.3",
-    "RAM": "512MB",
-    "Manufacturer": "Embest"
-  },
-  {
-    "Code": "900061",
-    "Model": "CM",
-    "Revision": "1.1",
-    "RAM": "512MB",
-    "Manufacturer": "Sony UK"
-  },
-  {
     "Code": "a01040",
     "Model": "2B",
     "Revision": "1.0",
@@ -201,25 +152,11 @@
     "Manufacturer": "Sony UK"
   },
   {
-    "Code": "a02082",
-    "Model": "3B",
-    "Revision": "1.2",
+    "Code": "a21041",
+    "Model": "2B",
+    "Revision": "1.1",
     "RAM": "1GB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "a020a0",
-    "Model": "CM3",
-    "Revision": "1.0",
-    "RAM": "1GB",
-    "Manufacturer": "Sony UK"
-  },
-  {
-    "Code": "a020d3",
-    "Model": "3B+",
-    "Revision": "1.3",
-    "RAM": "1GB",
-    "Manufacturer": "Sony UK"
+    "Manufacturer": "Embest"
   },
   {
     "Code": "a02042",
@@ -229,13 +166,6 @@
     "Manufacturer": "Sony UK"
   },
   {
-    "Code": "a21041",
-    "Model": "2B",
-    "Revision": "1.1",
-    "RAM": "1GB",
-    "Manufacturer": "Embest"
-  },
-  {
     "Code": "a22042",
     "Model": "2B (with BCM2837)",
     "Revision": "1.2",
@@ -243,16 +173,23 @@
     "Manufacturer": "Embest"
   },
   {
-    "Code": "a22082",
+    "Code": "900061",
+    "Model": "CM1",
+    "Revision": "1.1",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "a02082",
     "Model": "3B",
     "Revision": "1.2",
     "RAM": "1GB",
-    "Manufacturer": "Embest"
+    "Manufacturer": "Sony UK"
   },
   {
-    "Code": "a220a0",
-    "Model": "CM3",
-    "Revision": "1.0",
+    "Code": "a22082",
+    "Model": "3B",
+    "Revision": "1.2",
     "RAM": "1GB",
     "Manufacturer": "Embest"
   },
@@ -278,6 +215,83 @@
     "Manufacturer": "Embest"
   },
   {
+    "Code": "900092",
+    "Model": "Zero",
+    "Revision": "1.2",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "920092",
+    "Model": "Zero",
+    "Revision": "1.2",
+    "RAM": "512MB",
+    "Manufacturer": "Embest"
+  },
+  {
+    "Code": "900093",
+    "Model": "Zero",
+    "Revision": "1.3",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "920093",
+    "Model": "Zero",
+    "Revision": "1.3",
+    "RAM": "512MB",
+    "Manufacturer": "Embest"
+  },
+  {
+    "Code": "a020a0",
+    "Model": "CM3",
+    "Revision": "1.0",
+    "RAM": "1GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "a220a0",
+    "Model": "CM3",
+    "Revision": "1.0",
+    "RAM": "1GB",
+    "Manufacturer": "Embest"
+  },
+  {
+    "Code": "9000c1",
+    "Model": "Zero W",
+    "Revision": "1.1",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "a020d3",
+    "Model": "3B+",
+    "Revision": "1.3",
+    "RAM": "1GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "a020d4",
+    "Model": "3B+",
+    "Revision": "1.4",
+    "RAM": "1GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "9020e0",
+    "Model": "3A+",
+    "Revision": "1.0",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "9020e1",
+    "Model": "3A+",
+    "Revision": "1.1",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
     "Code": "a02100",
     "Model": "CM3+",
     "Revision": "1.0",
@@ -299,17 +313,17 @@
     "Manufacturer": "Sony UK"
   },
   {
-    "Code": "b03112",
-    "Model": "4B",
-    "Revision": "1.2",
-    "RAM": "2GB",
-    "Manufacturer": "Sony UK"
-  },
-  {
     "Code": "c03111",
     "Model": "4B",
     "Revision": "1.1",
     "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b03112",
+    "Model": "4B",
+    "Revision": "1.2",
+    "RAM": "2GB",
     "Manufacturer": "Sony UK"
   },
   {
@@ -320,9 +334,184 @@
     "Manufacturer": "Sony UK"
   },
   {
+    "Code": "b03114",
+    "Model": "4B",
+    "Revision": "1.4",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c03114",
+    "Model": "4B",
+    "Revision": "1.4",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
     "Code": "d03114",
     "Model": "4B",
     "Revision": "1.4",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b03115",
+    "Model": "4B",
+    "Revision": "1.5",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c03115",
+    "Model": "4B",
+    "Revision": "1.5",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d03115",
+    "Model": "4B",
+    "Revision": "1.5",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "902120",
+    "Model": "Zero 2 W",
+    "Revision": "1.0",
+    "RAM": "512MB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c03130",
+    "Model": "400",
+    "Revision": "1.0",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "a03140",
+    "Model": "CM4",
+    "Revision": "1.0",
+    "RAM": "1GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b03140",
+    "Model": "CM4",
+    "Revision": "1.0",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c03140",
+    "Model": "CM4",
+    "Revision": "1.0",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d03140",
+    "Model": "CM4",
+    "Revision": "1.0",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b04170",
+    "Model": "5",
+    "Revision": "1.0",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c04170",
+    "Model": "5",
+    "Revision": "1.0",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d04170",
+    "Model": "5",
+    "Revision": "1.0",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b04171",
+    "Model": "5",
+    "Revision": "1.1",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c04171",
+    "Model": "5",
+    "Revision": "1.1",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d04171",
+    "Model": "5",
+    "Revision": "1.1",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "e04171",
+    "Model": "5",
+    "Revision": "1.1",
+    "RAM": "16GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b04180",
+    "Model": "CM5",
+    "Revision": "1.0",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c04180",
+    "Model": "CM5",
+    "Revision": "1.0",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d04180",
+    "Model": "CM5",
+    "Revision": "1.0",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d04190",
+    "Model": "500",
+    "Revision": "1.0",
+    "RAM": "8GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "b041a0",
+    "Model": "CM5 Lite",
+    "Revision": "1.0",
+    "RAM": "2GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "c041a0",
+    "Model": "CM5 Lite",
+    "Revision": "1.0",
+    "RAM": "4GB",
+    "Manufacturer": "Sony UK"
+  },
+  {
+    "Code": "d041a0",
+    "Model": "CM5 Lite",
+    "Revision": "1.0",
     "RAM": "8GB",
     "Manufacturer": "Sony UK"
   }
